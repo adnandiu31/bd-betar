@@ -1,0 +1,187 @@
+// izitoast
+@import '~izitoast/dist/css/iziToast.min.css';
+
+// Select2
+@import '~select2/dist/css/select2.min.css';
+
+// Dropify
+@import '~dropify/dist/css/dropify.min.css';
+.dropify-wrapper .dropify-message p {
+   font-size: initial;
+}
+:root{
+    --app-primary: rgb(44, 97, 64);
+    --app-primary-light: rgb(49, 190, 103);
+}
+.app-text-primary{
+    color: var(--app-primary);
+}
+.app-bg-primary{
+    background-color: var(--app-primary);
+}
+
+.app-text-hover:hover{
+    color: var(--app-primary-light);
+    transition: all .2s;
+}
+
+// DataTables style
+.dataTables_wrapper .dataTables_length {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.dataTables_wrapper .dataTables_filter {
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.dataTables_wrapper .dataTables_info {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.dataTables_wrapper .dataTables_paginate {
+    padding-right: 1rem;
+}
+.table-responsive .btn{
+    padding: 8px 12px !important;
+}
+.data-create-form .custom-control-label .custom-control-input{
+    padding-top: 5px !important;
+}
+.subtotal-area{
+    padding: 10px;
+    margin-top: 10px;
+}
+.subtotal-area .widget-content-left{
+    float: left;
+}
+.subtotal-area .widget-content-right{
+    float: right;
+}
+.table-responsive .table-data .widget-content-left{
+    display: inline-block;
+}
+.table-responsive .table-data .widget-content-left p{
+    float: left;
+    margin: 0px 20px;
+    width: 80px;
+}
+.role-title-page .page-title-heading{
+    float: left;
+}
+.role-title-page .page-title-actions{
+    float: right;
+}
+.select2-container .select2-selection--single{
+    height: 40px !important; 
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 10px !important;
+}
+.customButton {
+    background-color: #2c6140;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition:  all .5s ease-out;
+}
+
+.customButton:hover, customButton a:hover {
+    background-color: rgb(7, 187, 7);
+    color: white !important;
+}
+
+.customButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.customButton a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.iconColor {
+    background-image: linear-gradient(to right,#6b9c6b, green);
+}
+
+.dropdown_color {
+    color:#a5a5a5
+}
+
+.badge_custom {
+    background-color: rgb(44 97 64);
+    border-radius: 100%;
+    color: white;
+}
+
+.badge_name {
+    font-size: 10px;
+    background-color: #2c6140;
+    border:none;
+    color: white;
+}
+
+.faq_bg {
+    background-color: green !important;
+}
+
+.active {
+    // background-color: #2c6140 !important;
+    // color:white !important;
+}
+
+.typeahead {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.typeahead > .active {
+    background-color: white !important;
+    color:white !important;
+}
+.typeahead > li{
+    width: max-content;
+    height: max-content;
+    background-color: white;
+
+}
+.typeahead-hint {
+    background-color: red;
+}
+.tt-highlight {
+    background-color: red !important;
+}
+
+.btn-secondary {
+    background-color: #fe7c96 !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+}
+
+.search-result{
+    position: absolute;
+    top: 80px;
+    min-width: 300px;
+}
+
+.search-result .dropdown-menu{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    color: #2c6140;
+}
+
+.search-result .dropdown-menu li a {
+    color: #0cb14b;
+}
+
+.search-result .no-data{
+    background-color: #f6f6f6;
+    padding: 10px;
+    border-radius: 3px;
+    z-index: 10;
+    color: #f82952;
+    position: relative;
+}
